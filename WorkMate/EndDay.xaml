@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="WorkMate.EndDay" Title="End Day">
+     <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <Image Source="https://4.imimg.com/data4/VC/JN/MY-27599365/logo-design-250x250.jpg"
+                   HeightRequest="60"/>
+        <Label Text="End Day"
+               FontSize="Title"
+               TextColor="White"
+               FontAttributes="Bold"
+               VerticalTextAlignment="Center"/>
+            </StackLayout>
+        </NavigationPage.TitleView>
+    <StackLayout>
+         <Entry x:Name="_id"
+                Placeholder="Enter Team ID" />
+        <Entry x:Name="_vehicleMileage"
+               Text="{Binding Path=_vehicleMileage}"
+                Placeholder="Enter Vehicle Mileage" />
+        <Entry x:Name="_fuelIntake"
+               Text="{Binding Path=_fuelIntake}"
+                Placeholder="Enter Fuel Intake (£)" />
+         <Button Text="End Day?"
+                 FontAttributes="Bold"
+                Clicked="Button_Clicked" />
+        
+    </StackLayout>
+</ContentPage>

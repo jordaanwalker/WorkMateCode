@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="WorkMate.LoginPage" Title="WorkMate" >
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+        <Label Text="WorkMate"
+               FontSize="Title"
+               TextColor="White"
+               FontAttributes="Bold"
+               VerticalTextAlignment="Center"/>
+            </StackLayout>
+        </NavigationPage.TitleView>
+    <StackLayout>
+        <Image Source="https://4.imimg.com/data4/VC/JN/MY-27599365/logo-design-250x250.jpg"/>
+        <Entry x:Name="_username"
+                Placeholder="Enter Username Name" />
+        <Entry x:Name="_password"
+               IsPassword="True"
+                Placeholder="Enter Password Name" />
+        <Button Text="Log In?"
+                FontAttributes="Bold"
+                Clicked="Button_Clicked"/>
+    </StackLayout>
+</ContentPage>

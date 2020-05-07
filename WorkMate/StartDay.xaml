@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="WorkMate.StartDay" Title="Start Day">
+     <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <Image Source="https://4.imimg.com/data4/VC/JN/MY-27599365/logo-design-250x250.jpg"
+                   HeightRequest="60"/>
+        <Label Text="Start Day"
+               FontSize="Title"
+               TextColor="White"
+               FontAttributes="Bold"
+               VerticalTextAlignment="Center"/>
+            </StackLayout>
+        </NavigationPage.TitleView>
+    <ScrollView> 
+    <StackLayout>
+        <Entry x:Name="_id"
+                Placeholder="Enter Team ID" />
+        <Entry x:Name="_supervisorName"
+                Placeholder="Enter Supervisor Name" />
+        <Entry x:Name="_worker1"
+                Placeholder="Enter Worker's Name" />
+        <Entry x:Name="_worker2"
+                Placeholder="Enter Worker's Name" />
+        <Entry x:Name="_worker3"
+               Placeholder="Enter Worker's Name" />
+        <Entry x:Name="_worker4"
+                Placeholder="Enter Worker's Name" />
+        <Entry x:Name="_vehicleMileage"
+                Placeholder="Enter Vehicle Mileage" />
+         <Button Text="Start Day?"
+                 FontAttributes="Bold"
+                Clicked="Button_Clicked" />
+        
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

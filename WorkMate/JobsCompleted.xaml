@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="WorkMate.JobsCompleted" Title="Jobs Completed">
+     <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <Image Source="https://4.imimg.com/data4/VC/JN/MY-27599365/logo-design-250x250.jpg"
+                   HeightRequest="60"/>
+        <Label Text="Jobs"
+               FontSize="Title"
+               TextColor="White"
+               FontAttributes="Bold"
+               VerticalTextAlignment="Center"/>
+            </StackLayout>
+        </NavigationPage.TitleView>
+    <ScrollView>
+    <StackLayout>
+        <Entry x:Name="_id"
+                Placeholder="Enter Team ID" />
+        <Entry x:Name="_job1"
+                Placeholder="Enter Job Completed" />
+        <Entry x:Name="_job2"
+                Placeholder="Enter Job Completed" />
+        <Entry x:Name="_job3"
+                Placeholder="Enter Job Completed" />
+        <Entry x:Name="_job4"
+                Placeholder="Enter Job Completed" />
+        <Entry x:Name="_job5"
+                Placeholder="Enter Job Completed" />
+         <Button Text="Jobs Completed?"
+                 FontAttributes="Bold"
+                Clicked="Button_Clicked" />
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -12,7 +12,7 @@ namespace WorkMate.Models
         public string worker2Name { get; set; }
         public string worker3Name { get; set; }
         public string worker4Name { get; set; }
-        public string vehicleMilage { get; set; }
+        public string vehicleMileage { get; set; }
 
         //Test
     }

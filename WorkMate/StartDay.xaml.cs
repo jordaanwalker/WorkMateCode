@@ -30,9 +30,9 @@ namespace WorkMate
                 return false;
             }
 
-            if (string.IsNullOrEmpty(_worker1.Text))
+            if (string.IsNullOrEmpty(_vehicleMileage.Text))
             {
-                DisplayAlert("--REQUIRED--", "Please enter Worker's Name", "OK");
+                DisplayAlert("--REQUIRED--", "Please enter Vehicle Mileage", "OK");
                 return false;
             }
             // repeat for next field - some fields may have different, 
@@ -59,7 +59,7 @@ namespace WorkMate
                     worker2Name = _worker2.Text,
                     worker3Name = _worker3.Text,
                     worker4Name = _worker4.Text,
-                    vehicleMilage = _vehicleMileage.Text
+                    vehicleMileage = _vehicleMileage.Text
 
                 };
                 await client.GetTable<startOfDay>().InsertAsync(startofDay);

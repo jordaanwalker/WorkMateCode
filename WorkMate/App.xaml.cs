@@ -1,5 +1,5 @@
 ﻿using System;
-using WorkMate.Views;
+//using WorkMate.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 

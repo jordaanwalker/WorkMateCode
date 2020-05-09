@@ -1,4 +1,5 @@
-﻿    using System;
+﻿/*
+using System;
     using System.IO;
     using Xamarin.Forms;
     using WorkMate.Models;
@@ -108,7 +109,7 @@ namespace WorkMate.Views
                     worker2Name = _worker2.Text,
                     worker3Name = _worker3.Text,
                     worker4Name = _worker4.Text,
-                    vehicleMilage = _mileage.Text,
+                    //vehicleMilage = _mileage.Text,
                     //fuelIntake = _fuelIntake.Text
                 };
                 //db.Insert(startofDay);
@@ -118,5 +119,5 @@ namespace WorkMate.Views
           
         }
     }
-}
+}*/
     

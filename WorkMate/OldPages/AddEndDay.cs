@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 namespace WorkMate.Views
 {
     public class AddEndDay
@@ -8,3 +8,4 @@ namespace WorkMate.Views
         }
     }
 }
+*/

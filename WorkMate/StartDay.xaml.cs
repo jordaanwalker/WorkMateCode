@@ -13,6 +13,7 @@ namespace WorkMate
 
         public static MobileServiceClient client = new MobileServiceClient("https://workmateprj.azurewebsites.net");
 
+        //Code used to for path to local database
         //string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "WorkMate.db3");
         public StartDay()
 
@@ -41,15 +42,16 @@ namespace WorkMate
             // if all validations pass, then return true
             return true;
         }
+        //Code that create the startOfDay table in the local Database
+        //var db = new SQLiteConnection(_dbPath);
+        //db.CreateTable<startOfDay>();
+
 
         async void Button_Clicked(object sender, EventArgs e)
         {
 
             if (Validate())
             {
-                //ar db = new SQLiteConnection(_dbPath);
-                //db.CreateTable<startOfDay>();
-
 
                 startOfDay startofDay = new startOfDay()
                 {

@@ -6,6 +6,7 @@ namespace WorkMate.Models
     {
 
         public string id { get; set; }
+        public string siteName { get; set; }
         public string job1 { get; set; }
         public string job2 { get; set; }
         public string job3 { get; set; }

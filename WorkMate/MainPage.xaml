@@ -12,7 +12,6 @@
             </StackLayout>
         </NavigationPage.TitleView>
     <StackLayout>
-        <!-- Place new controls here -->
         <Label x:Name="label"
                Text="Welcome to WorkMate,
                Please start your day!"

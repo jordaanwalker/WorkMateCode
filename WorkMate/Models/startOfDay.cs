@@ -14,6 +14,5 @@ namespace WorkMate.Models
         public string worker4Name { get; set; }
         public string vehicleMileage { get; set; }
 
-        //Test
     }
 }

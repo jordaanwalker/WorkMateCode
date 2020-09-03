@@ -7,7 +7,7 @@ namespace WorkMate
 {
     public partial class JobsCompleted : ContentPage
     {
-        public static MobileServiceClient client = new MobileServiceClient("https://workmateprj.azurewebsites.net");
+        public static MobileServiceClient client = new MobileServiceClient("");
 
         //Path for local db that wasn't needed
         //string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "WorkMate.db3");

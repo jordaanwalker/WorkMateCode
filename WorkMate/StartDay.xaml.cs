@@ -11,7 +11,7 @@ namespace WorkMate
     public partial class StartDay : ContentPage
     {
 
-        public static MobileServiceClient client = new MobileServiceClient("https://workmateprj.azurewebsites.net");
+        public static MobileServiceClient client = new MobileServiceClient("");
 
         //Code used to for path to local database
         //string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "WorkMate.db3");

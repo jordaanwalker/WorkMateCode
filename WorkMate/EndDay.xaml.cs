@@ -9,7 +9,7 @@ namespace WorkMate
     public partial class EndDay : ContentPage
     {
         //connection string to Azure Web App
-        public static MobileServiceClient client = new MobileServiceClient("https://workmateprj.azurewebsites.net");
+        public static MobileServiceClient client = new MobileServiceClient("");
 
         //creating old local database path
        // string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "WorkMate.db3");
